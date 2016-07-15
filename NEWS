@@ -1,0 +1,52 @@
+sophisthse 0.7.0
+-----------
+
+* cran release attempt
+* small vignette
+* sophisthse_metadata function
+
+sophisthse 0.65
+-----------
+
+* Protection against cyrillic letters in series names
+* Built-in data.frame series_info. Just `View(series_info)` in Rstudio
+* The function `sophisthse()` now accepts table names and series names
+
+
+sophisthse 0.63
+-----------
+
+* Reliable output from `sophisthse_tables()`
+* Protection against unavailable methodology
+* Protection against duplicate column names
+* Some code cleanup
+
+sophisthse 0.62
+-----------
+
+* Output 'ts' option is new and the default one. Now plots from 'forecast' package have correct timeline.
+* Output 'data.frame' now assigns variable labels and they are nicely visible with 'View()' in Rstudio.
+
+
+sophisthse 0.6
+-----------
+
+* Options ... passed to getURL. This allows the use of proxy server.
+
+sophisthse 0.5
+-----------
+
+* Code style cleanup
+* Add travis shield
+* Cyrillic encoding tested on macos and windows 10
+
+sophisthse 0.2
+-----------
+
+* warning when automatically detected ts period is not equal to the last letter
+* multiple time series download at once
+
+sophisthse 0.1
+-----------
+
+* first public release
